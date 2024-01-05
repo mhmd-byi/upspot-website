@@ -1,0 +1,28 @@
+@import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.layout {
+    .main {
+        .pageTitle {
+            background: $primaryLight url(../../../../public/images/logoPrimary.svg) no-repeat;
+            background-position: center left -150px;
+            background-size: contain;
+            padding: 120px 30px;
+            position: relative;
+            @include sm {
+                padding: 40px 20px;
+            }
+            .logo {
+                position: absolute;
+                width: 235px;
+                height: auto;
+                bottom: -120px;
+                right: 0;
+                z-index: 0;
+            }
+            .title2 {
+                margin-left: 0.8rem;
+            }
+        } 
+    }
+}

@@ -1,0 +1,49 @@
+@import "./variables.scss";
+
+@mixin textStyling {
+  &.regular {
+    font-family: 'Poppins-Regular', sans-serif;
+  } 
+  &.medium {
+    font-family: 'Poppins-Medium', sans-serif;
+  } 
+  &.semiBold {
+    font-family: 'Montserrat-Bold', sans-serif;
+  }
+  &.bold {
+    font-family: 'Montserrat-Bold', sans-serif;
+  }
+  &.primary {
+    color: $primary;
+  }
+  &.primaryLight {
+    color: $primaryLight;
+  }
+  &.secondary {
+    color: $secondary;
+  }
+  &.dark {
+    color: $dark;
+  }
+  &.grayLight {
+    color: $grayLight;
+  }
+  &.white {
+    color: $white;
+  }
+  &.red {
+    color: $red;
+  }
+  &.gray {
+    color: $gray;
+  }
+  &.green {
+    color: $green;
+  }
+  &.upperCase {
+    text-transform: uppercase;
+  }
+  &.underline {
+    text-decoration: underline;
+  }
+}

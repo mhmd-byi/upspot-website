@@ -1,0 +1,51 @@
+@import '../../../assets/scss/variables.scss';
+
+.button {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins-Medium', sans-serif;
+    user-select: none;
+    transition: 0.2s;
+    border: none;
+    i {
+        font-size: 24px;
+        margin-left: 12px;
+    }
+    &.primary {
+        background: $primaryLight;
+        color: $dark;
+        &:hover {
+            color: $primaryLight;
+        }
+    }
+    &.secondary {
+        background: $secondary;
+        color: $white;
+        &:hover {
+            color: $primary;
+            i {
+                color: $primary;
+            }
+        }
+        i {
+            color: $white;
+        }
+    }
+    &.simple {
+        background: transparent;
+        padding: 15px 0;
+        color: $dark;
+        &:hover {
+            color: $primary;
+            i {
+                color: $primary;
+            }
+        }
+    }
+}

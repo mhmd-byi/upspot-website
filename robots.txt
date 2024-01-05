@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /scripts/
+Disallow: /tmp/
+Sitemap: https://upspot.in/sitemap.xml

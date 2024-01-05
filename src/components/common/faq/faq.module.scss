@@ -1,0 +1,50 @@
+@import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.faq {
+    background: $white url(../../../../public/images/faq.svg) no-repeat;
+    background-position: bottom -2px left;
+    background-size: 42%;
+    @include sm {
+        background: $white;
+    }
+    @include biglg {
+        background-size: 35%;
+    }
+    .accWrapper {    
+        @include sm {
+            margin-top: 20px;
+        }
+        .accItem {
+            border: none !important;
+            margin-bottom: 10px;
+            background: rgba($color: $primary, $alpha: 0.2) !important;
+            border-radius: 10px;
+            font-size: 18px;
+            font-family: 'Poppins-Regular', sans-serif;
+            
+            .header {
+                button {
+                    color: $dark;
+                    background: transparent;
+                    padding: 22px 20px;
+                    border: none;
+                    box-shadow: none;
+                    outline: 0;
+                    line-height: 22px;
+                    font-family: 'Poppins-Medium', sans-serif;
+                    @include sm {
+                        padding: 10px;
+                    }
+                    &[aria-expanded="true"] {
+                        font-family: 'Poppins-Bold', sans-serif;
+                    } 
+                    &:focus {
+                        box-shadow: none;
+                        outline: 0;
+                    }
+                }
+            }
+        }
+    }
+}

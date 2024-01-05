@@ -1,0 +1,50 @@
+
+@import "../../../assets/scss/variables.scss";
+@import "../../../assets/scss/breakpoints.scss";
+
+.projectCard {
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 35px 40px;
+    border-radius: 30px;
+    transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    height: 85%;
+    @include sm {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        height: 100%;
+    }
+    &:hover {
+        transform: perspective(1500px) rotateX(-7deg) rotateY(19deg) scale3d(1.05, 1.05, 1.05);
+    }
+    img {
+        @include sm {
+            width: 60% !important;
+        }
+    }
+    .labels {
+        display: flex;
+        margin: 25px 0 40px;
+        flex-wrap: wrap;
+        grid-gap: 8px;
+        @include sm {
+            margin: 10px 0;
+        }
+    }
+    &.dark {
+        background: $secondary;
+        h3 {
+            color: $white;
+        }
+        button {
+            color: $white;
+            i {
+                color: $white;
+            }
+        }
+    }
+    &.light {
+        background: $primaryLight;
+    }
+}

@@ -1,0 +1,76 @@
+@import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.footer {
+    background: $secondary url(../../../../public/images/footerBg.svg) no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 60px 0 3rem;
+    @include sm {
+        padding: 3rem 0;
+    }
+    .whatsappChat {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        img {
+            width: 45px;
+            @include sm {
+                width: 35px;
+            }
+        }
+    }
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        @include sm {
+            margin: 20px 0;
+        }
+    }
+    .footerMenu {
+        padding-left: 0;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            &:hover {
+                span {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .social {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        margin-top: 30px;
+        li {
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            border-radius: 10px;
+            background: $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            transition: all .4s ease-in-out;
+            &:hover {
+                background: $primaryLight;
+                transition: all .4s ease-in-out;
+                margin-top: -10px;
+            }
+            img {
+                width: 20px;
+            }
+        }
+    }
+    .copyright {
+        border-top: solid 1px #393360;
+    }
+}

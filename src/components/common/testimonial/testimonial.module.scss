@@ -1,0 +1,93 @@
+@import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.testimonial {
+  position: relative;
+  background: $grayLight url(../../../../public/images/testimonial.svg) no-repeat;
+  background-size: 20%;
+  @include sm {
+    background-size: 50%;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 175px;
+    height: 160px;
+    background: url(../../../../public/images/quotemarks.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    @include sm {
+      width: 100px;
+    }
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 10px;
+    @include sm {
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    button {
+      background: $white;
+      min-width: 50px;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background: $secondary;
+        i {
+          color: $white;
+        }
+      }
+      i {
+        margin: 0;
+        font-size: 28px;
+      }
+    }
+  }
+  .item {
+    text-align: center;
+    .clientImg {
+      width: 100%;
+      height: 375px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      .clientPic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .play {
+        position: absolute;
+        margin: auto;
+        z-index: 9;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        cursor: pointer;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $secondary, $alpha: 0.6);
+        top: 0;
+        left: 0;
+      }
+    }
+    .details {
+      margin-top: 10px;
+    }
+  }
+}

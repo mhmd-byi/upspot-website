@@ -1,0 +1,40 @@
+@import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/mixins.scss';
+@import '../../../assets/scss/breakpoints.scss';
+
+.clientLogos {
+    padding: 1rem 0;
+}
+.parallax {
+    overflow: hidden;
+    letter-spacing: -2px;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    &:first-child {
+        margin-bottom: 1rem;
+        @include sm {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.parallax .scroller {
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.parallax .scroller {
+    img {
+        width: 120px;
+        margin: 0 40px;
+        @include sm {
+            width: 75px;
+        }
+    }
+}

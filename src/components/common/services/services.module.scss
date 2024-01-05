@@ -1,0 +1,34 @@
+@import "../../../assets/scss/breakpoints.scss";
+
+.services {
+    background: $primaryLight;
+    &.bgWhite {
+        background: $white;
+        .grid {
+            margin-top: 0;
+        }
+    }
+    .serviceView {
+        margin: 0 auto;
+        @include sm {
+            margin: 30px auto !important;
+        }
+    }
+    .grid {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat( auto-fill , minmax(260px, 20%) );
+        @include xmd {
+            grid-template-columns: repeat( auto-fill , minmax(250px, 25%) );
+        }
+        @include smd {
+            grid-template-columns: repeat( auto-fill , minmax(240px, 33.3%) );
+        }
+        @include tab {
+            grid-template-columns: repeat( auto-fill , minmax(240px, 50%) );
+        }
+        @include mo {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

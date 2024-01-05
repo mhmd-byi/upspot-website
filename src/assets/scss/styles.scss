@@ -1,0 +1,249 @@
+@import "./variables.scss";
+@import "./icons.scss";
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src:  url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-LightItalic';
+  src:  url('../fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src:  url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Italic';
+  src:  url('../fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src:  url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-MediumItalic';
+  src:  url('../fonts/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src:  url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-SemiBoldItalic';
+  src:  url('../fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src:  url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-BoldItalic';
+  src:  url('../fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src:  url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src:  url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins-Medium', sans-serif;
+}
+
+// for Header
+button.navbar-toggler.collapsed {
+  margin-right: 20px;
+  border: none;
+}
+span.navbar-toggler-icon {
+  background: url(../../../public/images/menu.svg) no-repeat;
+  background-size: cover;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.dropdown-toggle::after {
+  border: none;
+  font-size: 18px;
+  font-family: 'upspot';
+  content: '\e905';
+}
+.grayLightBg {
+  background: $grayLight;
+}
+.primaryLightBg {
+  background: $primaryLight;
+}
+.section {
+  padding: 40px 0;
+}
+.offcanvas {
+  background: $primaryLight;
+}
+button.btn-close {
+  background: $secondary;
+  padding: 10px !important;
+  border-radius: 8px;
+  color: $white;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-right: 5px !important;
+  &:hover {
+    opacity: 1;
+    color: $primary;
+  }
+}
+button.btn-close:before {
+  content: '\e909';
+  font-family: 'upspot' !important;
+}
+.testimonial {
+  .swiper-slide {
+    max-width: 175px;
+  }
+}
+.flip {
+  transform: scaleX(-1);
+}
+.dropdown {
+  position: initial;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 100%;
+  max-width: 920px;
+  left: auto;
+  right: 15px;
+  border: $border;
+  margin-top: 0;
+  box-shadow: 0px 20px 25px 3px rgba(0, 0, 0, 0.07);
+  padding-bottom: 30px;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav-link {
+  color: $gray;
+  white-space: nowrap;
+}
+.nav-tabs .nav-link.active {
+  background: $secondary;
+  color: $white;
+}
+.nav-link:focus, .nav-link:hover {
+  color: $dark;
+}
+.serviceCard {
+  background: $white;
+  border: $border;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 20px 25px 3px rgba(0, 0, 0, 0.07);
+  height: 100%;
+}
+.animate__fadeInLeft {
+  &.one {
+    --animate-duration: 400ms;
+  }
+  &.two {
+    --animate-duration: 600ms;
+  }
+  &.three {
+    --animate-duration: 800ms;
+  }
+  &.four {
+    --animate-duration: 1000ms;
+  }
+  &.five {
+    --animate-duration: 1200ms;
+  }
+}
+.animate__fadeInRight {
+  &.one {
+    --animate-duration: 500ms;
+  }
+  &.two {
+    --animate-duration: 700ms;
+  }
+  &.three {
+    --animate-duration: 900ms;
+  }
+  &.four {
+    --animate-duration: 1100ms;
+  }
+  &.five {
+    --animate-duration: 1300ms;
+  }
+}
+
+.accordion-body {
+  padding: 0 20px 20px;
+}
+
+@media screen and (max-width:991px) {
+  .img3 {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .section {
+    padding: 20px 0;
+  }
+  .t-center-m {
+    text-align: center;
+  }
+  .m-t-3 {
+    margin-top: 30px;
+  }
+  .aboutUs {
+    text-align: center;
+    .homeAboutBtn {
+      margin: 0 auto;
+    }
+    .w-100.flip {
+      width: 50% !important;
+    }
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    z-index: 99;
+    width: 275px;
+  }
+  .accordion-body {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
