@@ -22,6 +22,7 @@ import {
   Veeba, 
 } from './pages'
 import pp from './pages/pp'
+import RP from './pages/rp/rp'
 import TNC from './pages/tnc/tnc'
 
 import Sitemap from './sitemap'
@@ -146,5 +147,10 @@ export const routes = [
     path: '/pp',
     component: pp,
     exact: true
-  }, 
+  },
+  {
+    path: '/rp',
+    component: RP,
+    exact: true
+  },
 ]

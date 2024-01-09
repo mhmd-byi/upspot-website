@@ -36,6 +36,9 @@ const Footer = () => {
     if(page === 'Privacy Policy') {
       navigate('/pp');
     }
+    if(page === 'Refund Policy') {
+      navigate('/rp');
+    }
   }
   return (
     <div className={`${Styles.footer}`}>
@@ -59,6 +62,7 @@ const Footer = () => {
               <ListItem onClick={() => handleNavigation('Contact')}><Text variant={'md'} color={'white'} strong={'regular'}>Contact us</Text></ListItem>
               <ListItem onClick={() => handleNavigation('Terms and Conditions')}><Text variant={'md'} color={'white'} strong={'regular'}>Terms and Conditions</Text></ListItem>
               <ListItem onClick={() => handleNavigation('Privacy Policy')}><Text variant={'md'} color={'white'} strong={'regular'}>Privacy Policy</Text></ListItem>
+              <ListItem onClick={() => handleNavigation('Refund Policy')}><Text variant={'md'} color={'white'} strong={'regular'}>Refund Policy</Text></ListItem>
             </ListGroup>
           </div>
           <div className='col-lg-3 col-md-6'>
