@@ -19,7 +19,7 @@ const Meta = ({ title, description, pageUrl = '' }) => {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={`https://upspot.in/${pageUrl}`} />
+      <link rel="canonical" href={`https://www.upspot.in/${pageUrl}`} />
     </Helmet>
   );
 };
