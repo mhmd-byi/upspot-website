@@ -1,11 +1,12 @@
 import React from 'react';
-import { Text, Layout, Image, ServiceEnquiry } from '../../../components';
+import { Text, Layout, Image, ServiceEnquiry, Meta } from '../../../components';
 import { getBasePath } from '../../../helper';
 
 const Saas = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Software as a" title2="Service(SaaS)" description="Comprehensive Solutions: Empowering Your Success">
+            <Meta title="Top Digital Marketing & Google Ads Company in Indore " description="Unlock success with Upspot's expert paid marketing solutions. Drive conversions today. Call us at 77738 82021 to supercharge your online presence." pageUrl='service/saas'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

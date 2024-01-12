@@ -6,7 +6,7 @@ const SeoServices = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Seo" title2="Services" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Best SEO Company in Indore | Top-rated SEO Agency | Upspot" description="Unlock your website's full potential with Upspot, the premier SEO agency in Indore. Our expert team delivers top-rated SEO services for your business success." pageUrl='seo-service'/>
+            <Meta title="Best SEO Company in Indore | Top-rated SEO Agency | Upspot" description="Unlock your website's full potential with Upspot, the premier SEO agency in Indore. Our expert team delivers top-rated SEO services for your business success." pageUrl='service/seo-service'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

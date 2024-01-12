@@ -6,7 +6,7 @@ const ContentMarketing = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Content" title2="Marketing" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Content Marketing Services | Drive Engagement & Growth " description="Explore Upspot's Content Marketing Services. Drive engagement, attract audiences, and foster growth with our expert strategies. Learn more at Upspot." pageUrl='content-marketing'/>
+            <Meta title="Content Marketing Services | Drive Engagement & Growth " description="Explore Upspot's Content Marketing Services. Drive engagement, attract audiences, and foster growth with our expert strategies. Learn more at Upspot." pageUrl='service/content-marketing'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

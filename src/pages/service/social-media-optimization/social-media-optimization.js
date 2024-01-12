@@ -6,7 +6,7 @@ const SocialMediaOptimization = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Social Media" title2="Optimization" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Social Media Marketing in Indore | Social Media Management  " description=" Leading social media marketing agency in Indore. Elevate your brand with expert social media management at Upspot. Call us at 77738 82021." pageUrl='social-media-optimizations'/>
+            <Meta title="Social Media Marketing in Indore | Social Media Management  " description=" Leading social media marketing agency in Indore. Elevate your brand with expert social media management at Upspot. Call us at 77738 82021." pageUrl='service/social-media-optimizations'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

@@ -6,7 +6,7 @@ const MarketplaceManagement = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Marketplace" title2="Management" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Marketplace Management Services | E-commerce Expertise" description="Elevate your e-commerce success with Upspot's Marketplace Management Services. Our experts maximise your reach and sales on popular online marketplaces." pageUrl='marketplace-management'/>
+            <Meta title="Marketplace Management Services | E-commerce Expertise" description="Elevate your e-commerce success with Upspot's Marketplace Management Services. Our experts maximise your reach and sales on popular online marketplaces." pageUrl='service/marketplace-management'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

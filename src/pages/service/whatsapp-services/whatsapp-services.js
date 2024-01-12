@@ -6,7 +6,7 @@ const WhatsappServices = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Whatsapp" title2="Services" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Professional WhatsApp Services | Boost Engagement & Sales" description="Explore expert WhatsApp services for businesses. Boost engagement, drive sales, and enhance your brand. Contact us for tailored marketing solutions." pageUrl='whatsapp-services'/>
+            <Meta title="Professional WhatsApp Services | Boost Engagement & Sales" description="Explore expert WhatsApp services for businesses. Boost engagement, drive sales, and enhance your brand. Contact us for tailored marketing solutions." pageUrl='service/whatsapp-services'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

@@ -6,7 +6,7 @@ const Editing = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Video and Photo" title2="Shoots/ Editing" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Top Editing Services in Indore | Upspot" description="Transform your content with our expert editing services in Indore. Precision, creativity, and prompt delivery are guaranteed. Contact us at 7773882021 for more." pageUrl='editing'/>
+            <Meta title="Top Editing Services in Indore | Upspot" description="Transform your content with our expert editing services in Indore. Precision, creativity, and prompt delivery are guaranteed. Contact us at 7773882021 for more." pageUrl='service/editing'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

@@ -6,7 +6,7 @@ const SoftwareWebDevelopment = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Software/Web" title2="Development" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Web Design & Software Development company in Indore | Upspot" description="Customise your website with Upspot, your trusted web design, software development, and e-commerce website creation partner in Indore." pageUrl='software-web-development'/>
+            <Meta title="Web Design & Software Development company in Indore | Upspot" description="Customise your website with Upspot, your trusted web design, software development, and e-commerce website creation partner in Indore." pageUrl='service/software-web-development'/>
 
             <div className='section'>
                 <div className='container'>

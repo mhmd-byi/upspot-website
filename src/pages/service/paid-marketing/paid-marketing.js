@@ -6,7 +6,7 @@ const PaidMarketing = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Paid" title2="Marketing" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Top Digital Marketing & Google Ads Company in Indore " description="Unlock success with Upspot's expert paid marketing solutions. Drive conversions today. Call us at 77738 82021 to supercharge your online presence." pageUrl='paid-marketing'/>
+            <Meta title="Top Digital Marketing & Google Ads Company in Indore " description="Unlock success with Upspot's expert paid marketing solutions. Drive conversions today. Call us at 77738 82021 to supercharge your online presence." pageUrl='service/paid-marketing'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>

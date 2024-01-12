@@ -6,7 +6,7 @@ const GraphicsDesigns = () => {
     const basePath = getBasePath();
     return (
         <Layout title1="Graphics" title2="Designs" description="Comprehensive Solutions: Empowering Your Success">
-            <Meta title="Graphic Design in Indore | Expert Services | Upspot " description="Discover tailored graphic design services in Indore. From logos to visuals, we've got you covered. Contact us at 77738 82021. Elevate your brand today" pageUrl='graphics-designs'/>
+            <Meta title="Graphic Design in Indore | Expert Services | Upspot " description="Discover tailored graphic design services in Indore. From logos to visuals, we've got you covered. Contact us at 77738 82021. Elevate your brand today" pageUrl='service/graphics-designs'/>
             <div className='section'>
                 <div className='container'>
                     <div className='row align-items-center justify-content-center'>
