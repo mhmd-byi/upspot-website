@@ -21,7 +21,6 @@ const Meta = ({ title, description, pageUrl = '' }) => {
       <meta name="description" content={description} />
       <meta name="keywords" content="digital marketing agency in indore, digital marketing company, web development company, best seo company, social media marketing agency, ecommerce website development, website designing services, paid marketing, marketplace product management, graphic designer near me, graphic designing services" />
       <link rel="canonical" href={`https://www.upspot.in/${pageUrl}`} />
-      <meta name="google-site-verification" content="MTT38BQ6YN-7W9i0vhil4EHN_pZBqsJ1EH0upIFRb74" />
     </Helmet>
   );
 };
