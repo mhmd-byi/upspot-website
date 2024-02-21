@@ -11,9 +11,9 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();   
-        emailjs.sendForm('service_d3bpcgg', 'template_sv8vnea', e.target, '6jKy2CT9esg2_ap_Q')
+        emailjs.sendForm('service_1k4t7ef', 'template_vfrdaan', e.target, 'P82k8Y0ujt0_ZHm4B')
           .then((result) => {
-            console.log(result.text);
+            console.log(result);
             setResultMessage("Thank you for your message! We'll get in touch soon.");
           }, (error) => {
             console.log(error.text);
