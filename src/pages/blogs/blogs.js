@@ -19,31 +19,11 @@ const Blogs = () => {
         <Layout title1="Our" title2="Articles" description="Navigating the Digital Landscape: Your Guide to Online Growth" mainClass={Styles.blogPage} >
             <Meta title="Blogs | Upspot" description="Unlock success with upspot, a reputed IT company in indore. We provide site design, development, and digital marketing services. call us at 7773882021." pageUrl='about' />
 
-            <div className={`section d-none d-sm-block ${Styles.blogPage}`}>
-                <div className='container'>
-                    <div className='row justify-content-between'>
-                        <div className='col-md-12 col-lg-4'>
-                            <Text variant={'xxl'} color={'red'} strong={'regular'}>About us</Text>
-                            <Heading headingText={'We are Defining a New Era of Performance-Driven Brand Building'} headingType={'h2'} strong={'bold'} className={'mb-4'} />
-                            <Image src="./images/About-vector.png" className={'w-75'} />
-                        </div>
-                        <div className='col-md-12 col-lg-7 mt-5'>
-                            <div><Text variant={'md'} strong={'regular'}>We are UpSpot, our mission is to empower clients with a comprehensive 360-degree brand experience through our Martech solutions. With over 7 years of expertise, we deliver strategic graphic creations, web development, paid advertisements, SEO services, website design, and graphic design solutions. Our commitment to excellence has positioned UpSpot as a highly sought-after provider of Martech solutions in India.</Text></div>
-                            <div className='mt-3'><Text variant={'md'} strong={'regular'}>Our business rests on three key foundations: Start Up, Move Up, and Keep Up. In the Start Up phase, we focus on helping businesses establish a solid foundation with services like website design, web development, branding, logo design, and SEO.</Text></div>
-                            <div className='mt-3'><Text variant={'md'} strong={'regular'}>Once the foundation is set, we progress to the Move Up stage, where we boost brand success through paid advertising and social media marketing. We adapt to meet additional needs, ensuring our clients achieve their goals.</Text></div>
-                            <div className='mt-3'><Text variant={'md'} strong={'regular'}>The Keep Up phase marks the conclusion of brand growth, where we continually work to maintain optimal website efficiency and ongoing progress. We are dedicated to supporting our clients' journey and ensuring their sustained success.</Text></div>
-                            <div className='mt-3'><Text variant={'md'} strong={'regular'}>We are lucky enough to create something beautiful almost every other day, build brands and design websites for talented people from all around the world. We love our work and we are sure you will too!</Text></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className={`section ${Styles.blogPage} mb-5`}>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-md-12 col-lg-9 text-center'>
-                            <Text variant={'xxl'} color={'red'} strong={'regular'}>Taking You Forward.</Text>
-                            <Heading headingText={"Here's what happens when creativity, data and technology collide. We always believe that the best work is yet to come…"} headingType={'h2'} strong={'bold'} />
+                            <Heading headingText={"Latest Articles"} className="mb-3" headingType={'h2'} strong={'bold'} />
                         </div>
                     </div>
                     <div className='row justify-content-center'>
