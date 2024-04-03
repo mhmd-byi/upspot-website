@@ -20,6 +20,10 @@ import {
   WBCS, 
   DesiDhaba, 
   Veeba, 
+  Blogs,
+  AiInMarketing,
+  Magician
+  
 } from './pages'
 import pp from './pages/pp'
 import RP from './pages/rp/rp'
@@ -151,6 +155,21 @@ export const routes = [
   {
     path: '/rp',
     component: RP,
+    exact: true
+  },
+  {
+    path: '/blogs',
+    component: Blogs,
+    exact: true
+  },
+  {
+    path: '/blogs/ai-in-marketing',
+    component: AiInMarketing,
+    exact: true
+  },
+  {
+    path: '/blogs/magician-of-web-development-services',
+    component: Magician,
     exact: true
   },
 ]

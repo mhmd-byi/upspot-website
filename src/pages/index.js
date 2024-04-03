@@ -21,6 +21,10 @@ import Portfolio, {
   DesiDhaba, 
   Veeba, 
 } from "./portfolio";
+import Blogs, {
+  AiInMarketing,
+  Magician
+}  from "./blogs";
 
 export {
   Home,
@@ -44,4 +48,7 @@ export {
   WBCS, 
   DesiDhaba, 
   Veeba, 
+  Blogs,
+  AiInMarketing,
+  Magician
 }

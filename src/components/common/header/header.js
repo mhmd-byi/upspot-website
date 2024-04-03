@@ -66,6 +66,15 @@ const Header = () => {
         if(page === 'saas') {
             navigate('/service/saas');
         }
+        if(page === 'blogs'){
+            navigate('/blogs');
+        }
+        if(page === 'ai-in-marketing'){
+            navigate('/blogs/ai-in-marketing');
+        }
+        if(page === 'magician-of-web-development-services'){
+            navigate('/blogs/magician-of-web-development-services');
+        }
     };
     
 
@@ -110,6 +119,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </NavDropdown>
+                            <Nav.Link onClick={() => handleNavigation('blogs')} className={location.pathname === '/blogs' ? Styles.active : ""}><Image src={`${basePath}images/blogs-header-icon.png`} /> Blogs</Nav.Link>
                             {/* <Nav.Link onClick={() => handleNavigation('Portfolio')} className={location.pathname === '/portfolio' ? Styles.active : ""}><Image src={`${basePath}images/portfolio.png`} /> Portfolio</Nav.Link> */}
                             <Nav.Link onClick={() => handleNavigation('Careers')} className={location.pathname === '/careers' ? Styles.active : ""}><Image src={`${basePath}images/career.png`} /> Careers</Nav.Link>
                             <Nav.Link onClick={() => handleNavigation('Contact')} className={location.pathname === '/contact' ? Styles.active : ""}><Image src={`${basePath}images/contact.png`} /> Contact us</Nav.Link>
