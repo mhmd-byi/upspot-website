@@ -15,10 +15,9 @@ const Sitemap = () => {
     "/https://upspot.in/service/paid-marketing",
     "/https://upspot.in/service/editing",
     "/https://upspot.in/careers",
-    "/https://upspot.in/contact",
-    "http://upspot/blogs",
-    "https://www.upspot.in/blogs/ai-in-marketing",
-    "https://www.upspot.in/blogs/magician-of-web-development-services",
+    "/https://upspot.in/blogs",
+    "/https://upspot.in/blogs/ai-in-marketing",
+    "/https://upspot.in/blogs/magician-of-web-development-services",
   ];
 
   const generateSitemap = () => {
