@@ -42,36 +42,6 @@ const Footer = () => {
     if(page === 'Blogs'){
       navigate('/blogs')
     }
-    if(page === 'software-web-development') {
-      navigate('/service/software-web-development');
-  }
-  if(page === 'social-media-optimization') {
-      navigate('/service/social-media-optimization');
-  }
-  if(page === 'seo-services') {
-      navigate('/service/seo-services');
-  }
-  if(page === 'paid-marketing') {
-      navigate('/service/paid-marketing');
-  }
-  if(page === 'marketplace-management') {
-      navigate('/service/marketplace-management');
-  }
-  if(page === 'whatsapp-services') {
-      navigate('/service/whatsapp-services');
-  }
-  if(page === 'content-marketing') {
-      navigate('/service/content-marketing');
-  }
-  if(page === 'graphics-designs') {
-      navigate('/service/graphics-designs');
-  }
-  if(page === 'editing') {
-      navigate('/service/editing');
-  }
-  if(page === 'saas') {
-      navigate('/service/saas');
-  }
   }
   return (
     <div className={`${Styles.footer}`}>
@@ -80,7 +50,7 @@ const Footer = () => {
         <div className='row justify-content-between'>
           <div className='col-lg-4 col-md-12 mb-3'>
             <Image src={`${basePath}images/logo-white.svg`} />
-            <div className={`${Styles.aboutText} mt-3`}>
+            <div className='mt-3'>
               <Text variant={'sm'} color={'white'} strong={'regular'}>UpSpot is a MarTech solutions company that helps businesses leverage technology to achieve their goals. We bridge the gap between adopting the right marketing strategies and processing way too much ease with the core objective being agility and personalisation.</Text>
             </div>
           </div>
@@ -97,21 +67,6 @@ const Footer = () => {
               <ListItem onClick={() => handleNavigation('Terms and Conditions')}><Text variant={'md'} color={'white'} strong={'regular'}>Terms and Conditions</Text></ListItem>
               <ListItem onClick={() => handleNavigation('Privacy Policy')}><Text variant={'md'} color={'white'} strong={'regular'}>Privacy Policy</Text></ListItem>
               <ListItem onClick={() => handleNavigation('Refund Policy')}><Text variant={'md'} color={'white'} strong={'regular'}>Refund Policy</Text></ListItem>
-            </ListGroup>
-          </div>
-          <div className='col-lg-3 col-md-6'>
-            <Heading headingType={'h3'} headingText={'Services'} color={'primaryLight'} strong={'regular'} />
-            <ListGroup className={Styles.footerMenu}>
-              <ListItem onClick={() => handleNavigation('software-web-development')}><Text variant={'md'} color={'white'} strong={'regular'}>Software/Web Development</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('social-media-optimization')}><Text variant={'md'} color={'white'} strong={'regular'}>Social Media Optimization</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('seo-services')}><Text variant={'md'} color={'white'} strong={'regular'}>Seo Services</Text></ListItem>
-              {/* <ListItem onClick={() => handleNavigation('Portfolio')}><Text variant={'md'} color={'white'} strong={'regular'}>Portfolio</Text></ListItem> */}
-              <ListItem onClick={() => handleNavigation('paid-marketing')}><Text variant={'md'} color={'white'} strong={'regular'}>Paid Marketing</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('marketplace-management')}><Text variant={'md'} color={'white'} strong={'regular'}>Marketplace Management</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('whatsapp-services')}><Text variant={'md'} color={'white'} strong={'regular'}>WhatsApp Services</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('content-marketing')}><Text variant={'md'} color={'white'} strong={'regular'}>Content Marketing</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('editing')}><Text variant={'md'} color={'white'} strong={'regular'}>Video and Photo Shoots/ Editing</Text></ListItem>
-              <ListItem onClick={() => handleNavigation('graphics-designs')}><Text variant={'md'} color={'white'} strong={'regular'}>Graphics Designs</Text></ListItem>
             </ListGroup>
           </div>
           <div className='col-lg-3 col-md-6'>
