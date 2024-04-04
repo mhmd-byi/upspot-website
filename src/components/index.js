@@ -1,4 +1,4 @@
-import {Image, Heading, Text, Button, Icon, Tag, ListGroup, ListItem, ServiceEnquiry, Meta} from "./shared";
+import {Image, Heading, Text, Button, Icon, Tag, ListGroup, ListItem, ServiceEnquiry, Meta, Excerpt} from "./shared";
 import {Header, ClientLogo, Services, ServicesCard, ProjectCard, Testimonial, Faq, Footer, Layout} from "./common";
 
 export {
@@ -21,4 +21,5 @@ export {
   ListItem,
   ServiceEnquiry,
   Meta,
+  Excerpt,
 }

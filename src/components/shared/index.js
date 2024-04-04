@@ -9,6 +9,7 @@ import ListGroup from "./list-group";
 import ListItem from "./list-item";
 import ServiceEnquiry from "./service-enquiry";
 import Meta from "./meta";
+import Excerpt from "./excerpt/";
 
 export {
   Image,
@@ -21,4 +22,5 @@ export {
   ListItem,
   ServiceEnquiry,
   Meta,
+  Excerpt,
 }
