@@ -73,6 +73,10 @@ const Footer = () => {
       navigate('/service/saas');
   }
   }
+
+  const getCurrentYear = () => {
+    return new Date().getFullYear();
+  }
   return (
     <div className={`${Styles.footer}`}>
       <Link to={'https://api.whatsapp.com/send?phone=7773882021'} target='_' className={Styles.whatsappChat}> <Image src={`${basePath}images/whatsapp.png`} /></Link>
@@ -128,7 +132,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className={`mt-3 pt-3 text-center px-3 ${Styles.copyright}`}><Text variant={'md'} color={'white'} strong={'regular'}>Copyright © 2023 UpSpot. All Rights Reserved.</Text></div>
+      <div className={`mt-3 pt-3 text-center px-3 ${Styles.copyright}`}><Text variant={'md'} color={'white'} strong={'regular'}>Copyright © {getCurrentYear()} UpSpot. All Rights Reserved.</Text></div>
     </div>
   )
 }
