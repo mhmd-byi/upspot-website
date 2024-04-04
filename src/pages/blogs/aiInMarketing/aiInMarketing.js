@@ -35,7 +35,7 @@ const AiInMarketing = () => {
             <div>
               <Text variant={"md"} strong={"regular"}>
                 Upspot being the leading{" "}
-                <a href="https://upspot.in/" target="_blank">
+                <a href="https://upspot.in/">
                   digital marketing agency
                 </a>
                 , always stays ahead of the new-gen evolutions. This being the

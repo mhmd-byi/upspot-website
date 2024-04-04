@@ -41,7 +41,6 @@ const Magician = () => {
                 pioneers of{" "}
                 <a
                   href="https://upspot.in/service/software-web-development"
-                  target="_blank"
                 >
                   web development services
                 </a>{" "}
@@ -360,7 +359,7 @@ const Magician = () => {
               <div>
                 <Text variant={"md"} strong={"regular"}>
                   Trust is the base for consumers to work with the{" "}
-                  <a href="https://upspot.in/" target="_blank">
+                  <a href="https://upspot.in/">
                     digital marketing agency
                   </a>
                   . Upspot being the renowned digital marketing agency in
