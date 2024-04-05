@@ -20,7 +20,7 @@ const Meta = ({ title, description, pageUrl = '' }) => {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content="digital marketing agency in indore, digital marketing company, web development company, best seo company, social media marketing agency, ecommerce website development, website designing services, paid marketing, marketplace product management, graphic designer near me, graphic designing services" />
-      <link rel="canonical" href={`https://www.upspot.in/${pageUrl}`} />
+      <link rel="canonical" href={`https://upspot.in/${pageUrl}`} />
       <script type='javascript'>
         {JSON.stringify({
             "@context": "https://schema.org/", 
