@@ -13,7 +13,7 @@ const SeoServices = () => {
       <Meta
         title="Best SEO Company in Indore | Top-rated SEO Agency | Upspot"
         description="Unlock your website's full potential with Upspot, the premier SEO agency in Indore. Our expert team delivers top-rated SEO services for your business success."
-        pageUrl="service/seo-service"
+        pageUrl="service/seo-services"
       />
       <div className="section">
         <div className="container">

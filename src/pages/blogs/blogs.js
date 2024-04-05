@@ -33,7 +33,7 @@ const Blogs = () => {
       <Meta
         title="Blogs | Upspot"
         description="Unlock success with upspot, a reputed IT company in indore. We provide site design, development, and digital marketing services. call us at 7773882021."
-        pageUrl="Blogs"
+        pageUrl="blogs"
       />
 
       <div className={`section ${Styles.blogPage} mb-5`}>
