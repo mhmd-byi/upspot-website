@@ -178,14 +178,14 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='row justify-content-center'>
-                        <div className='col-md-10 col-lg-6 m-t-3'>
-                            <ProjectCard theme={'light'} heading={'WBCS EduRev'} src={'images/wbcs-edu.png'} cardHandler={() => handleNavigation('wbcs-edu-rev')}>
+                        <div className='col-md-10 col-lg-6 m-t-3' style={{ marginTop: '30px' }}>
+                            <ProjectCard theme={'light'} heading={'WBCS EduRev'} src={'images/wbcs-edu2.png'} cardHandler={() => handleNavigation('wbcs-edu-rev')}>
                                 <Tag theme={'light'} text={'Website Designing & Development'} />
                                 <Tag theme={'light'} text={'Application Development'} />
                             </ProjectCard>
                         </div>
-                        <div className='col-md-10 col-lg-6 d-none d-sm-block'>
-                            <ProjectCard theme={'dark'} heading={'Desi Dhaba'} src={'images/desi-dhaba.jpg'} cardHandler={() => handleNavigation('desi-dhaba')}>
+                        <div className='col-md-10 col-lg-6 d-none d-sm-block' style={{ marginTop: '30px' }}>
+                            <ProjectCard theme={'dark'} heading={'Desi Dhaba'} src={'images/dd.png'} cardHandler={() => handleNavigation('desi-dhaba')}>
                                 <Tag theme={'dark'} text={'Branding & Packaging'} />
                                 <Tag theme={'dark'} text={'Logo Designing'} />
                             </ProjectCard>

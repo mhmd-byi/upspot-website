@@ -11,7 +11,7 @@ const ProjectCard = ({ theme, heading, children, cardHandler, src }) => {
     >
       <div className="row justify-content-between align-items-center">
         <div className="col-md-12">
-          <Image src={src} className={"w-100 m-t-3"} />
+          <Image src={src} className={`mt-3 ${Styles.imageSize}`}/>
         </div>
         <div className="col-md-12 mt-5">
           <Heading
@@ -20,7 +20,7 @@ const ProjectCard = ({ theme, heading, children, cardHandler, src }) => {
             strong={"semiBold"}
           />
           <div className={Styles.labels}>{children}</div>
-          <Button variant={"simple"}>
+          <Button variant={"simple"} className={`${Styles.buttonMargin}`}>
             View Details <Icon className={"icon-Right-arrow"} />
           </Button>
         </div>

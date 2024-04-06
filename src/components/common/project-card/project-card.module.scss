@@ -8,7 +8,7 @@
     padding: 35px 40px;
     border-radius: 30px;
     transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-    height: 85%;
+    height: 100%;
     @include sm {
         margin-top: 20px;
         padding: 15px;
@@ -46,5 +46,13 @@
     }
     &.light {
         background: $primaryLight;
+    }
+    .imageSize{
+        width: 230px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    .projectCardMargin{
+        margin-top: 30px;
     }
 }
