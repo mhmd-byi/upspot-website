@@ -87,7 +87,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className={Styles.contactDetails}>
-                        <Text><Link to={'mailto:coffee@upspot.in'}>coffee@upspot.in</Link> <Text className={Styles.sep}>|</Text> <Link to={'tel:+917773882021'}>+91 77738 82021</Link></Text>
+                        <Text><Link to={'mailto:coffee@upspot.in'}>coffee@upspot.in</Link> <Text className={Styles.sep}>|</Text> <Link to={'tel:+918518006091'}>+91 85180 06091</Link></Text>
                     </div>
                 </div>
             </div>

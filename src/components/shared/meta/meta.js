@@ -128,7 +128,7 @@ const Meta = ({ title, description, pageUrl = "" }) => {
           image: "https://upspot.in/images/Logo.svg",
           "@id": "",
           url: "https://upspot.in",
-          telephone: "+91 77738 82021",
+          telephone: "+91 85180 06091",
           address: {
             "@type": "PostalAddress",
             streetAddress: "302, Govardhan shikhar building",

@@ -73,7 +73,7 @@ const Footer = () => {
             <Heading headingType={'h3'} headingText={'Contact us'} color={'primaryLight'} strong={'regular'} />
             <div><Text variant={'sm'} color={'white'} strong={'regular'}>It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office.</Text></div>
             <div className='mt-2'><Text variant={'md'} color={'white'} strong={'regular'}><Link to="mailto:coffee@upspot.in">coffee@upspot.in</Link></Text></div>
-            <div className='mt-2'><Text variant={'md'} color={'white'} strong={'regular'}><Link to="tel:+917773882021">+91 77738 82021</Link></Text></div>
+            <div className='mt-2'><Text variant={'md'} color={'white'} strong={'regular'}><Link to="tel:+918518006091">+91 85180 06091</Link></Text></div>
             <ListGroup className={Styles.social}>
               <ListItem><NavLink to={'https://www.facebook.com/ketanshah01/'} target='_'><Image src={`${basePath}images/facebook.svg`} /></NavLink></ListItem>
               <ListItem><NavLink to={'https://www.instagram.com/upspotindia/'} target='_'><Image src={`${basePath}images/instagram.svg`} /></NavLink></ListItem>

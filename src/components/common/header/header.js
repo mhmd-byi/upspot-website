@@ -128,7 +128,7 @@ const Header = () => {
                             <div><Image src={`${basePath}images/certified-partner.png`} alt='Certified Partner' className={Styles.certified} /></div>
 
                             <div className={Styles.contactDetails}>
-                                <NavLink href='tel:+917773882021' title='Phone' className={Styles.phone}><Image src={`${basePath}images/phone.svg`} /> +91 77738 82021</NavLink>
+                                <NavLink href='tel:+918518006091' title='Phone' className={Styles.phone}><Image src={`${basePath}images/phone.svg`} /> +91 85180 06091</NavLink>
                                 <NavLink href='mailto:coffee@upspot.in' title='Email'><Image src={`${basePath}images/mail.svg`} /> coffee@upspot.in</NavLink>
                             </div>
                         </Nav>
